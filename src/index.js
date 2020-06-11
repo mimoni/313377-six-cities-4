@@ -8,4 +8,4 @@ const settings = {
 
 ReactDOM.render(
     <App rentalCount={settings.RENTAL_OFFERS_COUNT}/>,
-    document.querySelector(`#root`));
+    document.getElementById(`root`));
